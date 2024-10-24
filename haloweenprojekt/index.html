@@ -7,18 +7,18 @@
     <title>Document</title>
 </head>
 <body>
+  <embed src="halloween-244722.mp3" autostart hidden>
     <div id="card">
- 
         <form>
            <h1>Reszkess Nádudvar!</h1>
            <h1>🎃</h1>
           <p>Gyere le a diszkóba <b>11.02-én</b>, legyél Freddie Krueger, Frank Einstein vagy a sikoly a Horrorra akadvából és bulizzunk egy félelmeteset! <br>Fő utca 125 - 18:00</p>
         <div>
-          <input type="text" placeholder="A neved" id="name">
+          <input type="text" placeholder="A neved" id="textInput">
         </div>
         <div>
       
-          <select id="outfit">
+          <select id="selectInput">
             <option selected disabled>
               -- Ennek öltözöm --
             </option>
@@ -31,12 +31,13 @@
           </select>
           </div>
         
-        <button>Jelentkezés</button>
+        <button onclick="saveData()">Jelentkezés</button>
       </form>
         
         <div id="moon">
           
         </div>
       </div>
+      <script src="Haloween.js"></script>
 </body>
 </html>
