@@ -1,0 +1,68 @@
+*{
+  margin:0;
+  padding:0;
+  transition:1s;
+  box-sizing:border-box;
+  font-family: 'Jolly Lodger', cursive;
+}
+body{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+  background:#1f2222;
+}
+b{
+  font-size:1.5rem;
+}
+input, select{
+  line-height: 28px;
+    padding: 8px 16px;
+    border: none;
+   font-size: 20px;
+   border-radius: 4px;
+  width:100%;
+}
+#card{
+  height:400px;
+  width:800px;
+  border-radius:50px;
+  background: linear-gradient(90deg, #E78D3D 7.25%, #ED9E3F 52.25%, #E6843C 100%);
+  position:relative;
+  overflow:hidden;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+#card:hover .cloud{
+  transform:translateY(500px);
+  opacity:0;
+  transition-delay:opacity 0.6s;
+}
+#card:hover form{
+  opacity:1;
+}
+
+#card h1{
+  font-family:'Frijole', cursive;
+  max-width:70%;
+  font-size:3rem;
+  text-align:center;
+  margin:auto;
+}
+#card p{
+  font-size:1.3rem;
+  text-align:center;
+}
+form{
+  opacity:0;
+}
+form>div{
+  margin:10px 0;
+}
+button{
+  font-size:20px;
+  padding:10px 20px;
+  display:block;
+  margin:auto;
+}
