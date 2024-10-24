@@ -40,6 +40,7 @@ input, select{
   justify-content:center;
   align-items:center;
 }
+
 #card:hover .cloud{
   background-color: orange;
   transform:translateY(500px);
