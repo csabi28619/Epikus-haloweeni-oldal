@@ -6,11 +6,13 @@
   font-family: 'Jolly Lodger', cursive;
 }
 body{
+    background-image: url(hater.jpg);
   display:flex;
   justify-content:center;
   align-items:center;
   height:100vh;
-  background:#1f2222;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 b{
   font-size:1.5rem;
