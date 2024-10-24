@@ -25,6 +25,13 @@ input, select{
    border-radius: 4px;
   width:100%;
 }
+img{
+  position: absolute;
+  align-items: center;
+  size: 150%;
+  height: 650px;
+  width: 1000px;
+}
 
 #card{
   background-color: orange;
@@ -49,6 +56,9 @@ input, select{
 }
 #card:hover form{
   opacity:1;
+}
+#card:hover img{
+  opacity:0;
 }
 
 #card h1{
