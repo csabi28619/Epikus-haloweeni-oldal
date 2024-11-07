@@ -57,9 +57,6 @@ img{
 #card:hover form{
   opacity:1;
 }
-#card:hover img{
-  opacity:0;
-}
 
 #card h1{
   font-family:'Frijole', cursive;
